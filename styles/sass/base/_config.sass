@@ -1,0 +1,19 @@
+/* Basic */
+
+// MSIE: Required for IEMobile.
+@-ms-viewport
+	width: device-width
+
+body
+	-ms-overflow-style: scrollbar // MSIE: Prevents scrollbar from overlapping content.
+	background: $bg-color
+	font-family: ('Source Sans Pro', Helvetica, sans-serif)
+	//second: ('Courier New', monospace)
+
+// Set box model to border-box.
+// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+html
+	box-sizing: border-box
+
+*, *:before, *:after
+	box-sizing: inherit
